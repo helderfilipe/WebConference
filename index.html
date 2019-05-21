@@ -1,83 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content=widht=device-widht, initial-scale=1.0">
-        <meta http-equiv="X-UA-Comoatible" content="ie=edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
-        <link 
-            rel="stylesheet"
-            href=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
-
+    
     <body>
-    
-        <script 
-            scr="https://code.jquery.com/jquery-3.3.1.slim.min.js" ...>
-        </script>
-    
-        <script
-            scr="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
-        </script>
-
-        <script>
-            scr="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
-        </script>
-    
-        <nav>
-            <!-- Barra de navegação -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">             
+            <a class="navbar-brand " href="#page-top">WebConference</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>           
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre">SOBRE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#speakers">SPEAKERS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sponsors">SPONSORS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts">CONTACTS</a></li>
+                </ul>   
+            </div>
         </nav>
-
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">          
-        </nav>
-
-        <a class="navbar-brand " href="#page-top">Webconference</a>
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-                <!-- Items de navegação-->
-        </div>
-
-        <ul class="navbar-nav text-uppercase ml-auto">
-
-            <li class="nav-item">
-                <a class="nav-link" href="#sobre">sobre</a>    
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" href="#speakers">spekers</a>    
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#sponsors">sponsors</a>    
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="#contacts">contactos</a>    
-            </li>
-
-        </ul>
-
-        <button class="navbar-toggler navbar-toggler-right" type="button"
-            data-toggle="collapse" data-target="#navbarResponsive">
-        </button>
-
-        <span class="navbar-toggler-icon">
-        </span>
-
-        <header>
-            <!-- Imagem principal e botão de inscrição na conferência -->
             <header class="masthead">
                 <div class="container">
-                    <div class="intro-text">
-                        <!-- Título -->
-                        <!-- Botão de inscrição -->
+                    <div class="intro-text">                
+                    
+                    
                     </div>
                 </div>
             </header> 
         
-            header.masthead {
+            <!--header.masthead {
                 text-align: center;
                 color: white;
                 background-image: url("../img/confrence.jpg");
@@ -85,8 +44,8 @@
                 background-attachment: scroll;
                 background-position: center center;
                 background-size: cover;
-            }
-        </header>
+            }-->
+        
         <section id="about">
             <!-- Informação básica sobre a conferência -->
         </section>    
@@ -103,6 +62,10 @@
         <footer>
             <!-- Links para as redes sociais e copyright -->
         </footer>
-        
+        <script 
+            scr="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            scr="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            scr="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+        </script>  
    </body>
 </html>
